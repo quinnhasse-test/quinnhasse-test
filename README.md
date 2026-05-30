@@ -1,27 +1,27 @@
 # Quinn Hasse
 
-CS student. Focus on deep learning, NLP, and agentic systems.
+CS student. Deep learning, NLP, agentic systems.
 
----
+## Now
 
-## Projects
+Building on transformer fundamentals — multi-head attention from scratch, trained on Multi30k EN-DE, BLEU 33.8. Working through seq2seq and retrieval-augmented generation next.
 
-**[AttentionIsAllYouNeed](https://github.com/quinnhasse-test/AttentionIsAllYouNeed)** — Transformer (Vaswani et al. 2017) from scratch in PyTorch. No `nn.Transformer`. Trained on Multi30k EN-DE. **BLEU 33.8** on test set. W&B run: [quinnhasse/attention-is-all-you-need](https://wandb.ai/quinnhasse/attention-is-all-you-need).
+## Shipped
 
-**[LexonAI](https://github.com/quinnhasse-test/LexonAI)** — Transparent AI answer system. GPT-4o-mini constrained to retrieved sources via Exa, 4-layer evidence graph, interactive 3D visualization. Deployed: [lexon-ai.vercel.app](https://lexon-ai.vercel.app/). MadHacks 2025.
+[AttentionIsAllYouNeed](https://github.com/quinnhasse-test/AttentionIsAllYouNeed) — Transformer (Vaswani et al. 2017) in PyTorch, no `nn.Transformer`. BLEU 33.8 on Multi30k EN-DE test set. [W&B run](https://wandb.ai/quinnhasse/attention-is-all-you-need).
 
-**[echo-ridge-scoring](https://github.com/quinnhasse-test/echo-ridge-scoring)** — FastAPI REST service for deterministic DOIMB scoring (0–100) and risk/feasibility assessment in agentic pipelines. Configurable score blending, full test coverage, OpenAPI spec.
+[LexonAI](https://github.com/quinnhasse-test/LexonAI) — Transparent answer system: GPT-4o-mini constrained to Exa-retrieved sources, 4-layer evidence graph, interactive 3D visualization. MadHacks 2025. [lexon-ai.vercel.app](https://lexon-ai.vercel.app/).
 
-**[RealTimeASLTranslator](https://github.com/quinnhasse-test/RealTimeASLTranslator)** — Real-time ASL hand gesture classifier. OpenCV at 30 fps, CNN per-frame classification, live letter overlay. TensorFlow.
+[echo-ridge-scoring](https://github.com/quinnhasse-test/echo-ridge-scoring) — FastAPI REST service for deterministic DOIMB scoring (0–100) in agentic pipelines. Configurable score blending, OpenAPI spec, full test coverage.
 
-**[AutoTest](https://github.com/quinnhasse-test/AutoTest)** — Agentic code generator. Natural language prompt in, GPT-generated code committed directly to GitHub. Streamlit frontend, PyGithub backend.
+[RealTimeASLTranslator](https://github.com/quinnhasse-test/RealTimeASLTranslator) — ASL hand gesture classifier at 30 fps. OpenCV + CNN per-frame classification, live letter overlay. TensorFlow.
 
----
+[AutoTest](https://github.com/quinnhasse-test/AutoTest) — Agentic code generator. Natural language prompt in, GPT-generated code committed directly to GitHub. Streamlit frontend, PyGithub backend.
 
 ## Stack
 
-**ML/DL:** PyTorch, TensorFlow, scikit-learn, NumPy  
+**ML/DL:** PyTorch · TensorFlow · scikit-learn · NumPy  
 **CV:** OpenCV  
-**APIs:** FastAPI, OpenAI, Exa  
-**Frontend:** React, TypeScript, Three.js  
-**Tooling:** pytest, Docker, GitHub Actions
+**APIs:** FastAPI · OpenAI · Exa  
+**Frontend:** React · TypeScript · Three.js  
+**Tooling:** pytest · Docker · GitHub Actions
